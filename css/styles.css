@@ -26,6 +26,14 @@ header {
     line-height: 1px;
 }
 
+.nav h3:hover{
+  color: black;
+}
+
+.nav h4:hover{
+  color: black;
+}
+
 .nav h4 {
     font-size: 15px;
 }
@@ -94,26 +102,31 @@ header {
         #c7372a 50%
     );
     background-color: transparent;
-    height: 100px;
+    height: 180px;
     display: flex;
     justify-content: space-between;
 }
 
 .promo {
     text-align: center;
-    color: black;
+    color: #333;
     font-weight: bold;
+    font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
     background-color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     align-self: center;
+    letter-spacing: -1px;
+    text-transform: capitalize;
 }
 
 .promo-container {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
+
 
 .article-items {
     display: flex;
@@ -137,6 +150,7 @@ header {
     flex-direction: column;
     margin-bottom: 50px;
     color: white;
+    padding-left: 80px;
 }
 
 .article-items > a:last-of-type {
@@ -154,16 +168,101 @@ header {
     justify-content: flex-start;
 }
 
+.article-title  h2 {
+  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+}
+
+.article-title h4 {
+  font-family: Elena;
+  font-size: 25px;
+  font-style: italic;
+}
+
 .article-title > :not(:first-child) {
     margin-right: 15px;
 }
 
+.article-content h1 {
+  font-family: Calibri Bold,AvenirNext,Avenir,-apple-system,BlinkMacSystemFont,Roboto Slab,Droid Serif,Segoe UI,Oxygen-Sans,Ubuntu,Cantarell,Georgia,serif;
+  font-size: 45px;
+}
+
+.article-content h4 {
+  display: inline;
+}
+
+.article-img img {
+  height: 80px;
+    width: 80px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
 .article-footer {
     display: flex;
     justify-content: space-between;
     width: 50%;
+    font-weight: bold;
 }
 
 .article-footer > a {
     display: flex;
+    font-size: 20px;
+}
+
+.article-footer > .foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-post {
+  display: flex;
+  flex: 1;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+
+.post-item {
+    background-color: rgb(246, 243, 242);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: black;
+    padding-left: 50px;
+}
+
+.post-header > h2{
+   display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.post-content {
+  font-feature-settings: "onum";
+    color: rgb(51, 51, 51);
+    font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+    padding-left: 50px;
+}
+
+.post-header  h3 {
+  color: rgb(102, 102, 102);
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Calibri Bold", AvenirNext, Avenir, -apple-system, BlinkMacSystemFont, "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, Georgia, serif;
+}
+
+.post-header .author{
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.red-arrow{
+  color: rgb(211, 58, 44);
+  padding-left: 50px;
 }
