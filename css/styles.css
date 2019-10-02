@@ -79,24 +79,83 @@ header {
 /* articles */
 
 .articles {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 2fr 1fr; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles > a {
+    flex: 2;
+}
+
+.article-header {
+    background: linear-gradient(
+        to right,
+        #bc3428 50%,
+        #c7372a 50%
+    );
+    background-color: transparent;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    align-self: center;
+}
+
+.promo-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .article-items {
     display: flex;
+    width: 50%;
     flex-direction: column;
-    background-color: #bc3428;
+    
     justify-content: flex-end;
     align-content: center;
     color: white;
     text-decoration: none;
 }
 
+.article-items a {
+    color: white;
+    text-decoration: none;
+}
+
 .article-wrapper {
     display: flex;
+    padding: 30px;
     flex-direction: column;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.article-items > a:last-of-type {
+    padding-left: 25px;
+    padding-bottom: 20px;
+}
+
+.article-items > a:last-of-type > i {
+    font-size: 50px;
+}
+
+.article-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.article-title > :not(:first-child) {
+    margin-right: 15px;
 }
 
 .article-footer {
