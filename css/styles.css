@@ -110,9 +110,20 @@ main {
   text-align: center;
   color: #333;
   font-weight: bold;
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   background-color: white;
   text-decoration: none;
   font-size: 30px;
@@ -132,11 +143,35 @@ main {
   display: flex;
   width: 50%;
   flex-direction: column;
-
   justify-content: flex-end;
   align-content: center;
   color: white;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.first {
+  background-color: #bc3428;
+}
+
+.first:hover {
+  background-color: #bd463b;
+}
+
+.second {
+  background-color: #c7372a;
+}
+
+.second:hover {
+  background-color: #c5473c;
+}
+
+.third {
+  background-color: #b13125;
+}
+
+.third:hover {
+  background-color: #af463d;
 }
 
 .article-items a {
@@ -171,9 +206,20 @@ main {
 
 .article-title h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 .article-title h4 {
@@ -187,9 +233,20 @@ main {
 }
 
 .article-content h1 {
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
   font-size: 45px;
 }
 
@@ -203,6 +260,7 @@ main {
   border: 5px solid #fff;
   border-radius: 10px;
 }
+
 .article-footer {
   display: flex;
   justify-content: space-between;
@@ -240,6 +298,7 @@ main {
   background-color: rgb(246, 243, 242);
   color: black;
   padding: 20px;
+  cursor: pointer;
 }
 
 .post-header > h2 {
@@ -255,10 +314,20 @@ main {
 .post-content {
   font-feature-settings: "onum";
   color: rgb(51, 51, 51);
-  font-family: AvenirNext, Avenir, -apple-system, BlinkMacSystemFont,
-    "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell,
-    Georgia, serif;
-    
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 .post-content > p {
@@ -269,9 +338,20 @@ main {
   color: rgb(102, 102, 102);
   font-weight: 700;
   font-size: 18px;
-  font-family: "Calibri Bold", AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, "Roboto Slab", "Droid Serif", "Segoe UI", Oxygen-Sans,
-    Ubuntu, Cantarell, Georgia, serif;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
 }
 
 .post-header .author {
@@ -311,11 +391,12 @@ main {
   align-self: flex-start;
   width: 90%;
   height: 80%;
-  background: linear-gradient(
-    150deg,
-    #794cffe5 50%,
-    rgba(174, 148, 252, 0.898) 50%
-  );
+  background:
+    linear-gradient(
+      150deg,
+      #794cffe5 50%,
+      rgba(174, 148, 252, 0.898) 50%
+    );
   border-radius: 10px;
 }
 
@@ -454,8 +535,13 @@ img[alt="smash-ad"] {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  text-shadow: 3px 0 #009245, 2px 0 #009245, 1px 0 #009245, -1px 0 #009245,
-    -2px 0 #009245, -3px 0 #009245;
+  text-shadow:
+    3px 0 #009245,
+    2px 0 #009245,
+    1px 0 #009245,
+    -1px 0 #009245,
+    -2px 0 #009245,
+    -3px 0 #009245;
   transition: color 0.1s ease-out;
   display: flex;
   justify-content: center;
@@ -522,7 +608,7 @@ img[alt="smash-ad"] {
   word-break: break-word;
   font-family: Elena;
   font-size: 20px;
-  margin: calc(1em + 0.5vw) 0px;
+  margin: calc(1em + 0.5vw) 0;
 }
 
 .person-right a {
@@ -542,12 +628,16 @@ img[alt="smash-ad"] {
   background-image: linear-gradient(currentcolor, currentcolor);
   background-size: 100% 1.5px;
   background-origin: padding-box;
-  text-shadow: rgb(255, 255, 255) 3px 0px, rgb(255, 255, 255) 2px 0px,
-    rgb(255, 255, 255) 1px 0px, rgb(255, 255, 255) -1px 0px,
-    rgb(255, 255, 255) -2px 0px, rgb(255, 255, 255) -3px 0px;
+  text-shadow:
+    rgb(255, 255, 255) 3px 0,
+    rgb(255, 255, 255) 2px 0,
+    rgb(255, 255, 255) 1px 0,
+    rgb(255, 255, 255) -1px 0,
+    rgb(255, 255, 255) -2px 0,
+    rgb(255, 255, 255) -3px 0;
   color: rgb(0, 111, 198);
   text-decoration: none;
-  padding: 10px 0px;
+  padding: 10px 0;
   background-repeat: no-repeat;
   background-position: center bottom 29%;
   transition: color 0.1s ease-out 0s;
@@ -570,13 +660,25 @@ img[alt="smash-ad"] {
   font-size: 25px;
 }
 
-.extra-article-content > a:first-of-type, .extra-article-content h2 {
+.extra-article-content > a:first-of-type,
+.extra-article-content h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  font-family: Calibri Bold, AvenirNext, Avenir, -apple-system,
-    BlinkMacSystemFont, Roboto Slab, Droid Serif, Segoe UI, Oxygen-Sans, Ubuntu,
-    Cantarell, Georgia, serif;
-    display: inline;
-    color: #666;
+  font-family:
+    Calibri Bold,
+    AvenirNext,
+    Avenir,
+    -apple-system,
+    BlinkMacSystemFont,
+    Roboto Slab,
+    Droid Serif,
+    Segoe UI,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    Georgia,
+    serif;
+  display: inline;
+  color: #666;
 }
 
 .extra-article-content > p > span {
@@ -607,7 +709,7 @@ img[alt="smash-ad"] {
   background-color: rgb(211, 58, 44);
   color: rgb(255, 255, 255);
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
-  border-radius: 0px;
+  border-radius: 0;
   padding: 2.5em 3.5em;
 }
 
@@ -641,6 +743,7 @@ img[alt="smash-ad"] {
   font-weight: bold;
   font-size: 25px;
 }
+
 .lower-page-left > h2 a {
   color: #fff;
   font-size: 1.8em;
@@ -683,7 +786,6 @@ img[alt="smash-ad"] {
 .footer_topics_list {
   list-style: none;
   padding: 0;
-  list-style-image: url(/images/bullet.svg);
 }
 
 ul {
@@ -692,8 +794,8 @@ ul {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   padding-inline-start: 40px;
   list-style: none;
 }
@@ -706,12 +808,10 @@ ul {
   transition: color 0.2s ease-out;
   font-size: calc(1.3em + 0.2vw);
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
-}
-col-12 {
-  width: 100%;
 }
 
 .main-title .footer_topics {
@@ -924,22 +1024,22 @@ input[type="email"] {
   display: block;
   text-align: center;
   font-size: 15px;
-    padding: 1.5em 1.5em 0 1.5em;
-    line-height: 1.5;
-    color: #fff;
-    z-index: 2;
+  padding: 1.5em 1.5em 0 1.5em;
+  line-height: 1.5;
+  color: #fff;
+  z-index: 2;
 }
 
-.article--grid__note{
-   font-feature-settings: 'smcp' 1,'c2sc' 1;
-    letter-spacing: 1px;
-    font-variant: small-caps;
-    text-transform: lowercase;
-    background-position: center 72%;
-    color: #666;
-    display: block;
-    margin-bottom: .5em;
-} 
+.article--grid__note {
+  font-feature-settings: "smcp" 1, "c2sc" 1;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  background-position: center 72%;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5em;
+}
 
 small {
   font-size: 80%;
@@ -953,8 +1053,8 @@ small {
   line-height: 1.2;
 }
 
-.article-grid_content ul{
-  padding-left: calc(1.4em + .7vw);
+.article-grid_content ul {
+  padding-left: calc(1.4em + 0.7vw);
 }
 
 .article-grid_content ul li::before {
@@ -972,7 +1072,7 @@ small {
   color: #006fc6;
 }
 
-.article-grid_content ul>li {
-  margin-bottom: .5em;
-  padding-left: .25em;
+.article-grid_content ul > li {
+  margin-bottom: 0.5em;
+  padding-left: 0.25em;
 }
