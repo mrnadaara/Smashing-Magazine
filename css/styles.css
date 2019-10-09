@@ -1,8 +1,13 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+
 /* header/nav */
 header {
   display: flex;
-  background: #d33a2c;
+  background: rgb(117, 117, 117);
   padding: 20px;
+  font-family: "Varela Round", sans-serif;
 }
 
 main {
@@ -99,7 +104,7 @@ main {
 }
 
 .article-header {
-  background: linear-gradient(to right, #bc3428 50%, #c7372a 50%);
+  background: linear-gradient(to right, rgb(153, 153, 153) 50%, rgb(117, 117, 117) 50%);
   background-color: transparent;
   height: 180px;
   display: flex;
@@ -110,20 +115,6 @@ main {
   text-align: center;
   color: #333;
   font-weight: bold;
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
   background-color: white;
   text-decoration: none;
   font-size: 30px;
@@ -151,27 +142,15 @@ main {
 }
 
 .first {
-  background-color: #bc3428;
-}
-
-.first:hover {
-  background-color: #bd463b;
+  background-color: rgb(153, 153, 153);
 }
 
 .second {
-  background-color: #c7372a;
-}
-
-.second:hover {
-  background-color: #c5473c;
+  background-color: rgb(117, 117, 117);
 }
 
 .third {
-  background-color: #b13125;
-}
-
-.third:hover {
-  background-color: #af463d;
+  background-color: rgb(117, 117, 117);
 }
 
 .article-items a {
@@ -206,24 +185,9 @@ main {
 
 .article-title h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
 }
 
 .article-title h4 {
-  font-family: Elena;
   font-size: 25px;
   font-style: italic;
 }
@@ -232,21 +196,7 @@ main {
   margin-right: 15px;
 }
 
-.article-content h1 {
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
+.article-content h2 {
   font-size: 45px;
 }
 
@@ -305,6 +255,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  font-size: 30px;
 }
 
 .post-header > h5 {
@@ -314,20 +265,6 @@ main {
 .post-content {
   font-feature-settings: "onum";
   color: rgb(51, 51, 51);
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
 }
 
 .post-content > p {
@@ -338,20 +275,6 @@ main {
   color: rgb(102, 102, 102);
   font-weight: 700;
   font-size: 18px;
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
 }
 
 .post-header .author {
@@ -361,7 +284,7 @@ main {
 }
 
 .red-arrow {
-  color: rgb(211, 58, 44);
+  color: rgb(117, 117, 117);
   font-size: 40px;
 }
 
@@ -394,8 +317,8 @@ main {
   background:
     linear-gradient(
       150deg,
-      #794cffe5 50%,
-      rgba(174, 148, 252, 0.898) 50%
+      rgb(117, 117, 117) 50%,
+      rgb(68, 68, 68) 50%
     );
   border-radius: 10px;
 }
@@ -421,7 +344,7 @@ img[alt="smash-ad"] {
 
 .smashing-advert > div {
   box-sizing: border-box;
-  background-color: #d33a2c;
+  background-color: rgb(117, 117, 117);
   height: 100%;
   border-radius: 10px;
   width: 95%;
@@ -481,7 +404,7 @@ img[alt="smash-ad"] {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 5px solid rgb(211, 58, 44);
+  border-bottom: 5px solid rgb(117, 117, 117);
 }
 
 .more-articles i {
@@ -489,8 +412,7 @@ img[alt="smash-ad"] {
 }
 
 .mid-page {
-  background-color: #009245;
-  background-image: linear-gradient(to bottom, #009245 50%, #8bc53f 100%);
+  background-color: rgb(117, 117, 117);
   color: #fff;
   text-decoration: none;
   width: 100%;
@@ -506,7 +428,6 @@ img[alt="smash-ad"] {
   text-align: center;
   font-size: calc(1em + 0.25vw);
   padding: 0.75em 1em;
-  font-family: Mija;
   align-self: center;
   display: flex;
   justify-content: center;
@@ -522,6 +443,8 @@ img[alt="smash-ad"] {
 .mid-page-content {
   display: flex;
   flex-direction: column;
+  background-color: rgb(117, 117, 117);
+  padding-bottom: 40px;
 }
 
 .largest-image {
@@ -530,25 +453,16 @@ img[alt="smash-ad"] {
 }
 
 .mid-page-title a {
-  font-family: Mija;
   font-size: 50px;
   color: #fff;
   text-decoration: none;
   text-align: center;
-  text-shadow:
-    3px 0 #009245,
-    2px 0 #009245,
-    1px 0 #009245,
-    -1px 0 #009245,
-    -2px 0 #009245,
-    -3px 0 #009245;
   transition: color 0.1s ease-out;
   display: flex;
   justify-content: center;
 }
 
 .mid-page-heading {
-  font-family: Elena;
   display: block;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -568,7 +482,6 @@ img[alt="smash-ad"] {
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
   font-size: 1.2em;
   margin: 1em auto 2em;
-  font-family: Elena;
 }
 
 .person {
@@ -582,7 +495,7 @@ img[alt="smash-ad"] {
 .person-left {
   height: 220px;
   width: 220px;
-  border: 5px solid #d33a2c;
+  border: 5px solid rgb(117, 117, 117);
   border-radius: 10px;
   cursor: pointer;
   align-self: center;
@@ -606,7 +519,6 @@ img[alt="smash-ad"] {
 .person-right > p {
   line-height: calc(1.5em + 0.2vw);
   word-break: break-word;
-  font-family: Elena;
   font-size: 20px;
   margin: calc(1em + 0.5vw) 0;
 }
@@ -663,20 +575,6 @@ img[alt="smash-ad"] {
 .extra-article-content > a:first-of-type,
 .extra-article-content h2 {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
-  font-family:
-    Calibri Bold,
-    AvenirNext,
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    Roboto Slab,
-    Droid Serif,
-    Segoe UI,
-    Oxygen-Sans,
-    Ubuntu,
-    Cantarell,
-    Georgia,
-    serif;
   display: inline;
   color: #666;
 }
@@ -686,13 +584,12 @@ img[alt="smash-ad"] {
 }
 
 .extra-article-content h4 {
-  font-family: Elena;
   font-size: 25px;
   color: #666;
   display: inline;
 }
 
-.extra-article-content h1 {
+.extra-article-content h3 {
   padding: 0;
   font-size: 40px;
 }
@@ -700,13 +597,13 @@ img[alt="smash-ad"] {
 .extra-article-img img {
   height: 80px;
   width: 80px;
-  border: 5px solid #d33a2c;
+  border: 5px solid rgb(117, 117, 117);
   border-radius: 10px;
 }
 
 .lower-page {
   display: flex;
-  background-color: rgb(211, 58, 44);
+  background-color: rgb(117, 117, 117);
   color: rgb(255, 255, 255);
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 1px;
   border-radius: 0;
@@ -737,7 +634,6 @@ img[alt="smash-ad"] {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 0.75em 1em;
-  font-family: Mija;
   text-decoration: none;
   text-align: center;
   font-weight: bold;
@@ -763,7 +659,7 @@ img[alt="smash-ad"] {
 
 .main-footer {
   padding: 2em 0;
-  background-color: #d33a2c;
+  background-color: rgb(117, 117, 117);
   font-size: 0.8em;
   color: #fff;
 }
@@ -797,7 +693,6 @@ ul {
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 40px;
-  list-style: none;
 }
 
 .footer_topics_item {
@@ -907,7 +802,7 @@ ul {
 
 .newsletter-content > div {
   box-sizing: border-box;
-  background-color: #d33a2c;
+  background-color: rgb(117, 117, 117);
   border-radius: 10px;
   width: 90%;
   display: flex;
@@ -918,7 +813,6 @@ ul {
   padding-right: 80px;
   text-align: center;
   color: white;
-  font-family: Mija;
 }
 
 .newsletter-content > div > p:first-of-type {
@@ -931,12 +825,10 @@ ul {
 .newsletter-content > div > h2 {
   text-decoration: underline;
   font-size: 50px;
-  font-family: Mija;
 }
 
 .newsletter-content > div > h3 {
   font-size: 20px;
-  font-family: Mija;
 }
 
 .newsletter-content a {
@@ -1000,7 +892,6 @@ input[type="email"] {
 }
 
 .btn {
-  font-family: Mija;
   display: inline-block;
   position: relative;
   left: -5px;
@@ -1048,23 +939,12 @@ small {
 .article--grid__title {
   font-size: 30px;
   margin: 0 0 1em;
-  font-family: Mija;
   -webkit-font-smoothing: antialiased;
   line-height: 1.2;
 }
 
 .article-grid_content ul {
   padding-left: calc(1.4em + 0.7vw);
-}
-
-.article-grid_content ul li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-  font-size: 25px;
 }
 
 .article-grid_content ul a {
